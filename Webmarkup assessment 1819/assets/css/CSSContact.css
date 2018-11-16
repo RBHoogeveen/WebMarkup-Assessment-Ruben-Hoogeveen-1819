@@ -1,0 +1,193 @@
+body {
+	margin: auto;
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1275px;
+    margin-top: 0px;
+}
+
+header {
+	background-image: url("../img/companylogoBG.jpg");
+	background-repeat: no-repeat;
+	background-size: 960px, cover;
+    height: 200px;
+    width: 960px;
+	margin: auto;
+    background-position: 0px;
+    display: block;
+    text-align: center;
+
+}
+
+#header {
+    font-family: "Lucida Console", "Times New Roman", "Times", "serif";
+    font-size: 80px;
+    position: relative;
+    color: white;
+    line-height: 200px;
+    text-shadow:
+     -1px -1px 0 #000,  
+       1px -1px 0 #000,
+        -1px 1px 0 #000,
+          1px 1px 0 #000;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: #707070;
+    width: 960px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #444444;
+}
+
+.kopjes {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    background-color: #2699FB;
+    width: 960px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35pt;
+    text-align: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+p {
+    display: block;
+    text-transform: uppercase; 
+}
+
+.contactforms {
+    width: 960px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+
+}
+
+#info {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    font-size: 1.5em;
+    padding-left: 20px;
+    color: #707070;
+}
+
+.contactforms {
+    width: 960px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+fieldset {
+    padding: 0;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Select {
+    background-color: #FFFFFF
+}
+
+input[type=submit] {
+    background-color: #2699FB;
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 90%;
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+}
+
+input, textarea {
+    width: 97%;
+    padding: 12px;  
+    float: left;
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    color: #707070;
+    resize: none;
+    border: 0;
+
+}
+
+select {
+    height: 40px;
+    width: 525px;
+    float: right;
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+}
+
+label {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contactFormFieldset input, textarea {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    color: #707070;
+    font-size: 1.5em;
+}
+
+footer {
+    font-family: "Arial", "Times New Roman", "Times", "serif";
+    background-color: #000000;
+    width: 960px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20pt;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #FFFFFF;
+}
+
